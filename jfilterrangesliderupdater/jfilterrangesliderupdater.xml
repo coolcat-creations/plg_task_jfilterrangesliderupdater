@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="task" method="upgrade">
+  <name>plg_task_jfilterrangesliderupdater</name>
+  <element>jfilterrangesliderupdater</element>
+  <author>Elisa Foltyn</author>
+  <creationDate>2024-09</creationDate>
+  <copyright>(C) 2024 COOLCAT creations, Elisa Foltyn</copyright>
+  <license>GNU General Public License version 3 or later</license>
+  <authorEmail>contact@coolcat-creations.com</authorEmail>
+  <authorUrl>https://coolcat-campus.com</authorUrl>
+  <version>{{version}}</version>
+  <description>PLG_TASK_JFILTERRANGESLIDERUPDATER_XML_DESCRIPTION</description>
+  <namespace path="src">Coolcatcreations\Plugin\Task\Jfilterrangesliderupdater</namespace>
+  <scriptfile>scriptfile.php</scriptfile>
+
+  <files>
+    <folder plugin="jfilterrangesliderupdater">services</folder>
+    <folder>src</folder>
+    <folder>language</folder>
+  </files>
+
+  <config>
+    <fields name="params">
+      <fieldset name="basic">
+      </fieldset>
+    </fields>
+  </config>
+</extension>
